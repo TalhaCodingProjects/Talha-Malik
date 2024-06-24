@@ -9,7 +9,7 @@
     filter: brightness(105%);
     border-radius: 1.1vw;
     width: 16rem;
-    animation: ComingPicture .9s cubic-bezier(0.6, 0.04, 0.98, 0.335);
+    animation: ComingPicture 2s cubic-bezier(0.6, 0.04, 0.98, 0.335) ;
     transition-property: width, box-shadow;
     transition-duration: .1s;
     transition-timing-function: ease-in;
@@ -28,6 +28,7 @@
 
 .text-home{
     padding-top: 5vw;
+    animation: ComingPicture 4s cubic-bezier(0.6, 0.04, 0.98, 0.335) ;
 }
 
 
