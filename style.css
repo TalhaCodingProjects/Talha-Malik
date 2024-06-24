@@ -55,7 +55,7 @@
     
 }
 
-@media screen and (max-width: 990px) {
+/* @media screen and (max-width: 990px) {
     .Certifications{
         margin-right: 4rem;
     }
@@ -72,7 +72,7 @@
         width: 80%;
     }
     
-}
+} */
 
 .box-shadow:hover{
     cursor: pointer;
@@ -80,12 +80,14 @@
     filter: contrast(2);
 }
 
-@media screen and (max-width: 540px) {
+@media screen and (max-width: 990px) {
     .Certifications{
         margin-left: 5rem;
     }
     #image-1{
         width: 90%;
+        position: relative;
+        right: 2rem;
     }
     #image-2{
         width: 160%;
@@ -94,7 +96,8 @@
         width: 180%;
         top: 0.40rem;
         position: relative;
-        left: 2rem;
+        left: 6rem;
+        top: 1rem;
     }
     #image-4{
         display: none;
