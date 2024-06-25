@@ -80,6 +80,42 @@
     filter: contrast(2);
 }
 
+
+.carousel-inner h5{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 2rem;
+    text-shadow: 5px -2.2px 7px blue;
+}
+
+.carousel-inner{
+    margin-top: 2rem;
+    border-radius: 1%;
+    outline: 3px solid rgb(1, 112, 1);
+    box-shadow: 2px -1px 14px 8px green;
+}
+
+.carousel .carousel-inner img{
+     height: 35rem;
+}
+
+.carousel-inner img{
+    filter: brightness(50%);
+    width: 100%;
+}
+
+hr{
+    box-shadow: 2px 2px 8px 1px gray;
+    height: 1vh;
+}
+
+.carousel-inner p{
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    text-shadow: 3px -2.2px 7px rgba(255, 0, 0, 0.445);
+}
+
 @media screen and (max-width: 990px) {
     .Certifications{
         margin-left: 5rem;
@@ -101,6 +137,20 @@
     }
     #image-4{
         display: none;
+    }
+    
+}
+
+@media screen and (max-width: 890px) {
+    .carousel{
+        width: 44rem;
+    }
+    
+}
+
+@media screen and (max-width: 690px) {
+    .carousel{
+        width: 39rem;
     }
     
 }
